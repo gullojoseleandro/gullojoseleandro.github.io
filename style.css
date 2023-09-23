@@ -76,9 +76,11 @@ div img{
 }
 
 .nav-link{
+    display: inline-block;
+
     font-size: 10px;
     color: black;
-    padding: 5px 10px;
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -118,8 +120,7 @@ h3.h3{
 }
 
 .retro-button {
-            display: inline-block;
-            
+            display: block;
             background-color: #00e9d8; /* Color de fondo */
             color: #fff; /* Color de texto */
             border: 2px solid #000; /* Borde negro */
@@ -129,12 +130,11 @@ h3.h3{
             font-style: italic;
         }
 
-/* Efecto hover */
-        .retro-button:hover {
-            background-color: #00ffd0; /* Cambia el color de fondo al pasar el mouse */
-            color: #FF5733; /* Cambia el color de texto al pasar el mouse */
-            transform: scale(1.1); /* Escala ligeramente el botón al pasar el mouse */
-        }
+.retro-button:hover {
+  background-color: #00ffd0;
+  color: #FF5733;
+  transform: scale(1.1); 
+}
 
 ul.d-flex{
   margin: 0;
