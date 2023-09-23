@@ -48,7 +48,7 @@ h1.h1 span{
 }
 
 h1.h1{
-  margin-top: 150px;
+  margin-top: 100px;
   font-size: 5rem;
 }
 
@@ -64,13 +64,22 @@ a span{
     color: #dea803;
 }
 
-.navbar-toggler {
-    position: relative;
-    right: 10px; /* Alinea el botón a la derecha */
-    background-color: rgba(0, 0, 0, 0.2);
-}
 
 div img{
     width: 150px;
     margin: 5%;
+}
+
+.collapse{
+    font-family: 'Poppins', sans-serif;;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.nav-link{
+    text-align: right;
+    
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
 }
