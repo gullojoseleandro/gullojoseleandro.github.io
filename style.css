@@ -1,0 +1,66 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('fondo-dinamico.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    z-index: -1; /* Para que el fondo esté detrás del contenido */
+}
+
+#proyectosCarousel {
+    background-color: #f8f9fa; /* Fondo gris claro */
+    border: 1px solid #e9ecef; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+}
+
+#proyectosCarousel img {
+    max-width: 100%; /* Imágenes escalables */
+    height: auto;
+}
+
+#proyectosCarousel h3 {
+    font-size: 24px; /* Tamaño del título */
+    margin-top: 10px; /* Espacio superior */
+}
+
+#proyectosCarousel p {
+    font-size: 18px; /* Tamaño de la descripción */
+}
+
+.texto-presentacion {
+    font-size: 24px; 
+    font-weight: bold;
+    color: #333; 
+    text-align: center;
+    margin: 20px 0; 
+    padding: 10px; 
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 767px) {
+    .texto-presentacion {
+        font-size: 18px; 
+    }
+}
+
+footer p{
+  margin-bottom: 0;
+}
+
+div span{
+  color: mediumvioletred;
+}
+
+h1.h1{
+  margin-top: 100px;
+  font-size: 5rem;
+}
+
+div.col-lg-6{
+  margin-left: 25%;
+}
