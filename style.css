@@ -1,13 +1,4 @@
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('fondo-dinamico.jpg'); /* Ruta a tu imagen de fondo */
-    background-size: cover;
-    z-index: -1; /* Para que el fondo esté detrás del contenido */
-}
+
 
 #proyectosCarousel {
     background-color: #f8f9fa; /* Fondo gris claro */
@@ -52,15 +43,34 @@ footer p{
   margin-bottom: 0;
 }
 
-div span{
-  color: mediumvioletred;
+h1.h1 span{
+  color: #dea803;
 }
 
 h1.h1{
-  margin-top: 100px;
+  margin-top: 150px;
   font-size: 5rem;
 }
 
-div.col-lg-6{
-  margin-left: 25%;
+p.lead span{
+    text-decoration: underline #dea803;
+}
+
+div a img{
+    width: 35px;
+}
+
+a span{
+    color: #dea803;
+}
+
+.navbar-toggler {
+    position: relative;
+    right: 10px; /* Alinea el botón a la derecha */
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div img{
+    width: 150px;
+    margin: 5%;
 }
