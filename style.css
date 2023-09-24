@@ -1,27 +1,29 @@
-
-
 #proyectosCarousel {
-  background-color: #f8f9fa; /* Fondo gris claro */
-  border: 1px solid #e9ecef; /* Borde gris claro */
-  border-radius: 10px; /* Bordes redondeados */
+  background-color: #f8f9fa; 
+  border: 1px solid #e9ecef; 
+  border-radius: 10px;
   padding: 20px;
 }
 
 #proyectosCarousel img {
-  max-width: 100%; /* Imágenes escalables */
+  max-width: 100%;
   height: auto;
 }
 
 #proyectosCarousel h3 {
-  font-size: 24px; /* Tamaño del título */
-  margin-top: 10px; /* Espacio superior */
+  font-size: 24px; 
+  margin-top: 10px;
 }
 
 #proyectosCarousel p {
-  font-size: 18px; /* Tamaño de la descripción */
+  font-size: 18px; 
 }
 
-.texto-presentacion {
+body {
+  background-image: linear-gradient(to bottom, #03071E, #FAA307);
+}
+
+.textoPrincipal {
   font-size: 10px; 
   color: #333; 
   text-align: center;
@@ -33,125 +35,85 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 767px) {
-  .texto-presentacion {
-    font-size: 18px; 
-  }
-}
-
-footer p{
-  margin-bottom: 0;
-}
-
-h1.h1 span{
-  color: #ffc107;
-}
-
-h1.h1{
-  margin-top: -20px;
+.tituloMiNombre{
+  margin: auto;
   font-size: 4rem;
 }
-
-p.lead span{
+.tituloMiNombre span{
+  color: #FFBA08;
+}
+.tituloFullStack{
   text-decoration: underline double #ffc107;
 }
 
-div a img{
+
+.navbar{
+  background-color: rgba(255, 186, 8, 0.5);
+  width: 100%;
+  height: 35px;
+}
+
+
+.letraLogoJLG{
+  color: #03071E;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.logotipoJLG{
   width: 30px;
   margin: 0%;
 }
 
-a span{
-  color: #dea803;
-}
 
-p span{
-  text-decoration: underline double #ffc107;
-}
-
-div img{
-  width: 140px;
-  margin: 10px 10px;
-}
-
-.collapse{
-  font-family: 'Poppins', sans-serif;;
-  background-color: rgba(0, 0, 0, 0.0);
-  
-}
-
-.nav-link{
-  display: flexbox;
-  font-size: 10px;
-  color: black;
-  font-family: 'Poppins', sans-serif;
-}
-
-ul li span a{
-  margin: 3px 0;
-}
-
-
-.container button{
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-}
-
-.navbar{
-  background-color: rgba(0, 0, 0, 0.3);
-  
-}
-
-nav div span{
-  color: #ffc107;
-  font-family: 'Poppins', sans-serif;;
-  
-  
-}
-
-ul{
-  list-style: none;
-}
-
-h3.h3{
-  color: #ffc107;
-  font-size: 25px;
-  padding-right: 5px;
-}
-
-.list-inline-item{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.retro-button {
-  display: inline-block;
-  background-color: #00e9d8;
-  color: #fff;
-  border: 2px solid #000;
+.elementosDelNav {
+  display: inline;
+  background-color: #03071E;
+  color: #FFBA08;
+  border: 2px solid #03071E;
   border-radius: 5px;
   transition: background-color 0.3s, transform 0.3s;
   cursor: pointer;
   font-style: italic;
-  margin: 10px -10px;
+  margin: 10px;
+}
+.navBotonesInternos:hover {
+  background-color: #03071E;
+  color: #FFBA08;
+  transform: scale(1.2); 
 }
 
-.retro-button:hover {
-  background-color: #00ffd0;
-  color: #ffc107;
-  transform: scale(1.1); 
+.navBotonesInternosLetras{
+  display: inline;
+  font-size: 15px;
+  color: #FFBA08;
+  font-family: cursive;
+  margin: 30px 25px 30px 25px;
 }
+
+.listaBotonesNav{
+  list-style: none;
+}
+
+.cajaRedesSociales{
+  margin: 25px 10px 0 10px;
+  color: #FFBA08;
+}
+
+.fotoPerfil{
+  width: 140px;
+  margin: 10px 10px;
+  border: 2px solid #FFBA08;
+}
+
+
+.footer{
+  margin: auto;
+}
+
+
 
 ul.d-flex{
   margin: 0;
   padding: 0;
-}
-
-ul li a{
-  margin-top: 30px;
-}
-
-.modal-header{
-  font-family: 'Poppins', sans-serif;
-  text-decoration: underline pri;
 }
 

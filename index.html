@@ -42,44 +42,44 @@
     <div>
       <header>
         <!-------------------------------------------- BARRA DE NAVEGACIÓN (NAV) -------------------------------------->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarToggle">
-          <div class="container button">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarToggle">
             <a class="navbar-brand" href="#">
-              <img src="imagenes/simboloCod.jpg" alt="miLogo" class="d-inline-block align-top rounded-circle">
-              <span>JLG</span>
+              <img class="logotipoJLG" src="imagenes/simboloCod.jpg" alt="miLogo">
+              <span class="letraLogoJLG">JLG</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-              <ul class="d-flex ml-auto justify-content-around flex-wrap">
-                <li class="ml-center ">
-                  <span class="retro-button">
-                    <a class="nav-link font-weight-bold" href="#inicio" onclick="ocultarNav()">
+              <ul class="listaBotonesNav d-flex ml-auto justify-content-around flex-wrap">
+                <li>
+                  <span class="elementosDelNav">
+                    <a class="navBotonesInternosLetras font-weight-bold" href="#inicio" onclick="ocultarNav()">
                       <i class="fas fa-home"></i>
                       Inicio
                     </a>
                   </span>
                 </li>
-                <li class="ml-center">
-                  <span class="retro-button ">
-                    <a class="nav-link font-weight-bold" href="#tecnologias" onclick="ocultarNav()">
+                <li>
+                  <span class="elementosDelNav">
+                    <a class="navBotonesInternosLetras font-weight-bold" href="#tecnologias" onclick="ocultarNav()">
                       <i class="fas fa-cogs"></i> 
                       Tecnologías
                     </a>
                   </span>
                 </li>
-                <li class="ml-center">
-                  <span class="retro-button ">
-                    <a class="nav-link font-weight-bold" href="#proyectos" onclick="ocultarNav()">
+                <li>
+                  <span class="elementosDelNav">
+                    <a class="navBotonesInternosLetras font-weight-bold" href="#proyectos" onclick="ocultarNav()">
                       <i class="fas fa-folder-open"></i> 
                       Proyectos
                     </a>
                   </span>
                 </li>
-                <li class="ml-center">
-                  <span class="retro-button ">
-                    <a class="nav-link font-weight-bold" href="#contacto" onclick="ocultarNav()">
+                <li>
+                  <span class="elementosDelNav">
+                    <a class="navBotonesInternosLetras font-weight-bold" href="#contacto" onclick="ocultarNav()">
                       <i class="fas fa-envelope"></i> 
                       Contacto
                     </a>
@@ -87,42 +87,50 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
         <!---------------------------------------------------------------------------------------------------------->
       </header>
 
 
     
       <!------------------------------------------------------------------MAIN---------------------------------------------------------->    
-      <main flex-wrap>
+      <main>
         <!---------------------------------------INICIO------------------------------------------>
-        <section id="inicio" class="bg-primary text-white text-center py-5 min-vh-100">
-          <ul class="list-unstyled">
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/gullo-jose-leandro/" class="btn btn-social-icon btn-linkedin">
-                <i class="fab fa-linkedin-in fa-2x">
-                </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/gullojoseleandro" class="btn btn-social-icon btn-github">
-                <i class="fab fa-github fa-2x">
-                </i>
-              </a>
-            </li>
-          </ul>  
+        <section id="inicio" class="text-white text-center py-5 min-vh-100">
+          <div>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://wa.me/3489594918" class="btn-social-icon">
+                  <i class="cajaRedesSociales fab fa-whatsapp fa-2x">
+                  </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/gullo-jose-leandro/" class="btn-social-icon btn-linkedin">
+                  <i class="cajaRedesSociales fab fa-linkedin-in fa-2x">
+                  </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/gullojoseleandro" class="btn-social-icon btn-github">
+                  <i class="cajaRedesSociales fab fa-github fa-2x">
+                  </i>
+                </a>
+              </li>
+            </ul> 
+          </div> 
           <div class="container">
-            <h1 class="h1">
+            <h1 class="tituloMiNombre">
               José Leandro 
               <span>Gullo</span>
             </h1>
             <p class="lead">
               Desarrollador 
-              <span>Full Stack</span>
+              <span class="tituloFullStack">Full Stack</span>
             </p>
-            <div class="d-flex justify-content-center align-items-center">
-              <img src="imagenes/miFoto.jpg" alt="miFoto" class="img-fluid rounded-circle img-responsive mx-auto">
+            <div class="container">
+              <img src="imagenes/miFoto.jpg" alt="miFoto" class="fotoPerfil rounded-circle img-responsive">
             </div>
           </div>
           <p class="lead">
@@ -281,7 +289,7 @@
 
       
       <!------------------------------------FOOTER---------------------------------------->
-      <footer class="bg-dark text-white text-center py-3">
+      <footer class="footer bg-dark text-white text-center py-1">
         <div class="container">
           <p>
             &copy; Diseñado por Gullo José Leandro
