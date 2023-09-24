@@ -1,42 +1,42 @@
 
 
 #proyectosCarousel {
-    background-color: #f8f9fa; /* Fondo gris claro */
-    border: 1px solid #e9ecef; /* Borde gris claro */
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 20px;
+  background-color: #f8f9fa; /* Fondo gris claro */
+  border: 1px solid #e9ecef; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px;
 }
 
 #proyectosCarousel img {
-    max-width: 100%; /* Imágenes escalables */
-    height: auto;
+  max-width: 100%; /* Imágenes escalables */
+  height: auto;
 }
 
 #proyectosCarousel h3 {
-    font-size: 24px; /* Tamaño del título */
-    margin-top: 10px; /* Espacio superior */
+  font-size: 24px; /* Tamaño del título */
+  margin-top: 10px; /* Espacio superior */
 }
 
 #proyectosCarousel p {
-    font-size: 18px; /* Tamaño de la descripción */
+  font-size: 18px; /* Tamaño de la descripción */
 }
 
 .texto-presentacion {
-    font-size: 10px; 
-    color: #333; 
-    text-align: center;
-    margin: 20px 0; 
-    padding: 10px; 
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 10px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    font-family: 'Poppins', sans-serif;
+  font-size: 10px; 
+  color: #333; 
+  text-align: center;
+  margin: 20px 0; 
+  padding: 10px; 
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 767px) {
-    .texto-presentacion {
-        font-size: 18px; 
-    }
+  .texto-presentacion {
+    font-size: 18px; 
+  }
 }
 
 footer p{
@@ -53,40 +53,38 @@ h1.h1{
 }
 
 p.lead span{
-    text-decoration: underline double #ffc107;
+  text-decoration: underline double #ffc107;
 }
 
 div a img{
-    width: 30px;
-    margin: 0%;
+  width: 30px;
+  margin: 0%;
 }
 
 a span{
-    color: #dea803;
+  color: #dea803;
 }
 
 p span{
-    text-decoration: underline double #ffc107;
+  text-decoration: underline double #ffc107;
 }
 
 div img{
-    width: 140px;
-    margin: 10px 10px;
+  width: 140px;
+  margin: 10px 10px;
 }
 
 .collapse{
-    font-family: 'Poppins', sans-serif;;
-    background-color: rgba(0, 0, 0, 0.0);
+  font-family: 'Poppins', sans-serif;;
+  background-color: rgba(0, 0, 0, 0.0);
   
 }
 
 .nav-link{
-    display: flexbox;
-
-    font-size: 10px;
-    color: black;
-
-    font-family: 'Poppins', sans-serif;
+  display: flexbox;
+  font-size: 10px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul li span a{
@@ -99,7 +97,7 @@ ul li span a{
 }
 
 .navbar{
-    background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   
 }
 
