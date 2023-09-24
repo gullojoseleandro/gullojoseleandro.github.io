@@ -22,15 +22,15 @@
 }
 
 .texto-presentacion {
-    font-size: 24px; 
-    font-weight: bold;
+    font-size: 10px; 
     color: #333; 
     text-align: center;
     margin: 20px 0; 
     padding: 10px; 
-    background-color: #f8f8f8; 
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -48,8 +48,8 @@ h1.h1 span{
 }
 
 h1.h1{
-  margin-top: 0;
-  font-size: 5rem;
+  margin-top: -20px;
+  font-size: 4rem;
 }
 
 p.lead span{
@@ -57,17 +57,21 @@ p.lead span{
 }
 
 div a img{
-    width: 35px;
+    width: 30px;
+    margin: 0%;
 }
 
 a span{
     color: #dea803;
 }
 
+p span{
+    text-decoration: underline double #ffc107;
+}
 
 div img{
-    width: 150px;
-    margin: 5%;
+    width: 140px;
+    margin: 10px 10px;
 }
 
 .collapse{
@@ -121,13 +125,14 @@ h3.h3{
 
 .retro-button {
             display: block;
-            background-color: #00e9d8; /* Color de fondo */
-            color: #fff; /* Color de texto */
-            border: 2px solid #000; /* Borde negro */
+            background-color: #00e9d8;
+            color: #fff;
+            border: 2px solid #000;
             border-radius: 5px;
             transition: background-color 0.3s, transform 0.3s;
             cursor: pointer;
             font-style: italic;
+            margin-top: 10px;
         }
 
 .retro-button:hover {
@@ -141,6 +146,6 @@ ul.d-flex{
   padding: 0;
 }
 
-ul.list-unstyled{
-  margin-top: 80px;
+ul li a{
+  margin-top: 30px;
 }
