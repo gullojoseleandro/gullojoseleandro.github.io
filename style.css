@@ -84,7 +84,7 @@ body {
 }
 .elementosDelNavDesplegados {
   display: inline-block;
-  background-color: rgba(3, 7, 30, 0.8);
+  background-color: rgba(3, 7, 30, 1);
   color: #FFBA08;
   border: 1px solid #370617;
   border-radius: 5px;
@@ -95,7 +95,7 @@ body {
 }
 @media (max-width: 500px) {
   .elementosDelNavDesplegados{
-    padding: 10px 5px;
+    padding: 20px 10px;
   }
 }
 .elementosDelNavDesplegados:hover {
