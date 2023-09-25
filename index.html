@@ -11,13 +11,7 @@
     <!----------ENLACE A FUENTE DE GOOGLE (POPPINS)--------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap" rel="stylesheet">
 
     <!-----------------BOOTSTRAP--------------------->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -44,42 +38,44 @@
         <!-------------------------------------------- BARRA DE NAVEGACIÓN (NAV) -------------------------------------->
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarToggle">
-            <a class="navbar-brand" href="#">
-              <img class="logotipoJLG" src="imagenes/simboloCod.jpg" alt="miLogo">
-              <span class="letraLogoJLG">JLG</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="botonDesplegarNav navbar-toggler-icon"></span>
+            <div class="logotipo">
+              <a href="#">
+                <img class="logotipoJLG" src="imagenes/simboloCod.jpg" alt="miLogo">
+                <span class="letraLogoJLG">JLG</span>
+              </a>
+            </div>
+            <button class="botonDesplegarNav navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="listaBotonesNav d-flex ml-auto justify-content-around">
                 <li>
-                  <span class="elementosDelNav">
-                    <a class="navBotonesInternosLetras font-weight-bold" href="#inicio" onclick="ocultarNav()">
+                  <span class="elementosDelNavDesplegados">
+                    <a class="navBotonesInternosLetras" href="#inicio" onclick="ocultarNav()">
                       <i class="fas fa-home"></i>
                       Inicio
                     </a>
                   </span>
                 </li>
                 <li>
-                  <span class="elementosDelNav">
-                    <a class="navBotonesInternosLetras font-weight-bold" href="#tecnologias" onclick="ocultarNav()">
+                  <span class="elementosDelNavDesplegados">
+                    <a class="navBotonesInternosLetras" href="#tecnologias" onclick="ocultarNav()">
                       <i class="fas fa-cogs"></i> 
                       Tecnologías
                     </a>
                   </span>
                 </li>
                 <li>
-                  <span class="elementosDelNav">
-                    <a class="navBotonesInternosLetras font-weight-bold" href="#proyectos" onclick="ocultarNav()">
+                  <span class="elementosDelNavDesplegados">
+                    <a class="navBotonesInternosLetras" href="#proyectos" onclick="ocultarNav()">
                       <i class="fas fa-folder-open"></i> 
                       Proyectos
                     </a>
                   </span>
                 </li>
                 <li>
-                  <span class="elementosDelNav">
-                    <a class="navBotonesInternosLetras font-weight-bold" href="#contacto" onclick="ocultarNav()">
+                  <span class="elementosDelNavDesplegados">
+                    <a class="navBotonesInternosLetras" href="#contacto" onclick="ocultarNav()">
                       <i class="fas fa-envelope"></i> 
                       Contacto
                     </a>
@@ -97,7 +93,7 @@
       <!------------------------------------------------------------------MAIN---------------------------------------------------------->    
       <main>
         <!---------------------------------------INICIO------------------------------------------>
-        <section id="inicio" class="text-white text-center py-5 min-vh-100">
+        <section id="inicio" class="text-center py-5 min-vh-100">
           <div>
             <ul class="list-inline">
               <li class="list-inline-item">
@@ -121,19 +117,19 @@
             </ul> 
           </div> 
           <div class="container">
-            <h1 class="tituloMiNombre">
+            <h3 class="tituloMiNombre">
               José Leandro 
               <span>Gullo</span>
-            </h1>
-            <p class="lead">
+            </h3>
+            <p class="tituloFullStack">
               Desarrollador 
-              <span class="tituloFullStack">Full Stack</span>
+              <span>Full Stack</span>
             </p>
             <div class="container">
               <img src="imagenes/miFoto.jpg" alt="miFoto" class="fotoPerfil rounded-circle img-responsive">
             </div>
           </div>
-          <p class="lead">
+          <p class="textoPrincipal">
             <span>Hola Mundo!</span>
             <br/>
             Soy programador Back-End con conocimiento nato en Java y algunos de sus Frameworks (Spring, Struts, Hibernate) y, del lado del Front-End, manejo tecnologías como HTML5, CSS3, JavaScript y Ángular.
