@@ -1,3 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+
 #proyectosCarousel {
   background-color: #f8f9fa; 
   border: 1px solid #e9ecef; 
@@ -20,7 +27,7 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #03071E, #FAA307); 
+  background-image: linear-gradient(to bottom, #03071E, #FAA307);
 }
 
 
@@ -57,11 +64,12 @@ body {
 	display: inline-flex;
 }
 
-
-
 .logotipo{
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
   padding: 0px 10px;
+}
+.logotipo a:hover{
+  text-decoration: none;
 }
 .letraLogoJLG{
   color: #FFBA08;
@@ -72,11 +80,12 @@ body {
   margin: 0%;
 }
 
-
 .listaBotonesNav{
   margin: 0;
   padding: 0;
+  justify-content: space-around;
 }
+
 @media (max-width: 230px) {
   .listaBotonesNav {
     flex-direction: column;
@@ -86,12 +95,12 @@ body {
   display: inline-block;
   background-color: rgba(3, 7, 30, 1);
   color: #FFBA08;
-  border: 1px solid #370617;
+  border: 2px solid #FFBA08;
   border-radius: 5px;
-  transition: background-color 0.3s, transform 0.3s;
+  transition: background-color 0.4s, transform 0.4s;
   cursor: pointer;
   margin: 15px 0px;
-  padding: 10px 5px;
+  padding: 5px 5px;
 }
 @media (max-width: 500px) {
   .elementosDelNavDesplegados{
@@ -100,7 +109,7 @@ body {
 }
 
 .elementosDelNavDesplegados:hover {
-  background-color: #370617;
+  background-color: #03071E;
   color: #FFBA08;
   transform: scale(1.3); 
 }
