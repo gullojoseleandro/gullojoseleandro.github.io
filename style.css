@@ -95,7 +95,7 @@ body {
 }
 @media (max-width: 500px) {
   .elementosDelNavDesplegados{
-    padding: 10px 0;
+    padding: 5px 0;
   }
 }
 .elementosDelNavDesplegados:hover {
