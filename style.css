@@ -95,7 +95,7 @@ body {
 }
 @media (max-width: 500px) {
   .elementosDelNavDesplegados{
-    padding: 5px 0;
+    padding: 10px 0;
   }
 }
 .elementosDelNavDesplegados:hover {
@@ -107,6 +107,11 @@ body {
   font-size: 18px;
   color: #FFBA08;  
   font-weight: bold;
+}
+@media (max-width: 500px){
+  .navBotonesInternosLetras{
+    font-size: 15px;
+  }
 }
 
 a:hover{
