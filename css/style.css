@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -16,6 +15,7 @@ body{
     height: auto;
     line-height: 1.5;
     font-family: sans-serif;
+    
 }
 
 header{
@@ -174,6 +174,7 @@ main{
                 #inicio p span{
                     text-decoration: underline double #ffc107;
                 }
+
                 #inicio div img{
                 width: 130px;
                 height: auto;
@@ -198,30 +199,43 @@ main{
             font-size: 2rem;
         }
 
-        .trabajo{
-            display: flex; 
-	        flex: 1;
-            flex-wrap: wrap;
-            justify-content:center;
-            align-items: center;
-            padding: 20px;
+        .recuadro_proyectos{
+            display: flex;
+            flex: 1;
+            padding: 2;
             margin-top: 5px;
-            background: rgba(255, 186, 8, 0.2);
-            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
+            flex-direction: column;
         }
         .carta{
             display: flex;
             flex-direction: column;
-            margin: 20px;
-            width: 200px;
-            height:250px;
-            border-radius:12px;
+            width: 250px;
+            margin-bottom: 50px;
+            height:auto;
+            border-radius:20px;
+            background: rgba(255, 186, 8, 0.2);
+            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
         }
-        .carta img{
-            width: 100%;
-            height:70%;
-            border-radius:10px 10px 0px 0px;
-        }
+            .swiper {
+                width: 100%;
+                height: 100%;
+            }
+        
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         
         .carta .trabajo-contenido{
             text-align: center;
@@ -244,30 +258,30 @@ main{
         }
         #contacto{
             margin: auto;
-            padding-bottom: 20px;
             height: 600px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
-        #contacto h3 {
-            font-size: 2rem;
-            color: whitesmoke;
-          }
-          
-          .form-group {
+            #contacto h3 {
+                font-size: 2rem;
+                color: whitesmoke;
+            }
+
+          .formulario_grupo {
             margin-bottom: 20px;
           }
           
-          .form-group label {
+          .formulario_grupo label {
             display: block;
             font-size: 1.2rem;
             margin-bottom: 5px;
+            color: whitesmoke;
           }
           
-          .form-group input,
-          .form-group textarea {
+          .formulario_grupo input,
+          .formulario_grupo textarea {
             width: 100%;
             padding: 10px;
             border: 2px solid #FFBA08;
@@ -277,7 +291,7 @@ main{
             font-size: 1rem;
           }
           
-          .form-group textarea {
+          .formulario_grupo textarea {
             resize: vertical;
           }
           
