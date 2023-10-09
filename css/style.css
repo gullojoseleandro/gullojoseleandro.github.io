@@ -100,13 +100,14 @@ header{
 
 
                         .flecha{
-                            margin: 0 10px;
+                            margin-left: 10px;
                             border-radius: 5px;
                             padding: 4px 8px;
                             background-color: #03071e;
                             color: #FFBA08;
                             border: 2px solid #FFBA08;
                             cursor: pointer;
+                            width: 50px;
                         }
 
             .menu-toggle {
@@ -172,7 +173,8 @@ main{
                 padding: 5px;
             }
                 #inicio p span{
-                    text-decoration: underline double #ffc107;
+                    color: #ffc107;
+                    font-weight: bold;
                 }
 
                 #inicio div img{
