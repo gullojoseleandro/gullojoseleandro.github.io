@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 5;
     scroll-behavior: smooth;
 }
 
@@ -22,6 +22,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    height: 70px;
     background-color: rgba(255, 186, 8, 0.2);
 }
 
@@ -32,14 +33,16 @@ header{
     }
         .nav__container{
             display: flex;
-            padding: 8px 16px;
+            padding: 5px 14px;
             align-items: center;
             flex-basis: 100%;
-            flex-grow: 1
+            flex-grow: 1;
+            justify-content: space-evenly;
         }
             .nav__container__logo{
                 box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
                 padding: 0px 10px;
+                margin-top: 5px;
             }
                 .nav__container__logo a{
                     display: flex;
@@ -47,13 +50,13 @@ header{
                     text-decoration: none;
                 }
                     .nav__container__logo a img{
-                        width: 35px;
+                        width: 45px;
                         margin: 0;
                     }
                     .nav__container__logo a span{
                         color: #FFBA08;
                         font-weight: bold;  
-                        font-size: 13px;
+                        font-size: 17px;
                         font-family: 'Work Sans', sans-serif;   
                         margin-left: 3px;
                         margin-bottom: 3px;
@@ -68,24 +71,22 @@ header{
                 .nav__container__menu ul{
                     list-style-type: none;
                     display: flex;
-                    align-content: flex-end;
-                    justify-content: flex-end;
-                    align-items: baseline;
-                    flex-wrap: nowrap;
                     flex-direction: row;
+                    align-content: space-around;
+                    align-items: center;
                 }
                     .nav__container__menu svg{
                         width: 10px;
                         fill: #FFBA08;
                     }
                     .nav__container__menu ul.active{
-                        height: 55px;
-                        width: 100%;
+                        height: 7;
+                        /* width: 100%; */
                     }
                     .nav__container__menu ul.active li{
-                        width: 100%;
-                        height: 100%;
-                        padding: 4px 0 0 0;
+                        width: 500px;
+                        height: 7;
+                        padding-top: 10px;
                         border: 3px solid #FFBA08;
                     }
                     .nav__container__menu ul.active li a{
@@ -118,6 +119,7 @@ header{
                         }
 
 
+
                         .flecha{
                             margin-left: 10px;
                             border-radius: 5px;
@@ -135,15 +137,15 @@ header{
                 background-color: transparent;
                 border: none;
                 box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
-                padding: 0px 10px;
+                padding: 6px 20px;
                 position: absolute;
-                right: 16px; 
-            
+                margin-top: 5px;
+                margin-right: 20px;
             }
 
                 .bar {
                     width: 25px;
-                    height: 3px;
+                    height: 4px;
                     background-color: #FFBA08;
                     margin: 6px 0;
                     transition: 0.4s;
@@ -155,7 +157,7 @@ header{
 
 
 main{
-    margin-top: 50px;
+    margin-top: 70px;
 }
     .caja-section{
         text-align: center;
@@ -167,10 +169,11 @@ main{
             #inicio ul{
                 list-style: none;
                 text-align: center;
+                margin-bottom: 0;
             }
                 #inicio ul li{
                     display: inline-block;
-                    margin: 0 15px;
+                    margin: 10px 30px 0 0;
                 }
                     #inicio svg {
                         width: 30px; 
@@ -182,14 +185,17 @@ main{
             #inicio h1{
                 font-size: 4rem;
                 color: whitesmoke;
+                margin: 0;
             }
                 #inicio h1 span{
                     color: #FFBA08;
+                    margin: 0;
                 }
 
             #inicio p{
                 color: whitesmoke;
-                padding: 5px;
+                padding: 5px 0 0 0;
+                margin: 0;
             }
                 #inicio p span{
                     color: #ffc107;
@@ -230,11 +236,11 @@ main{
         .carta{
             display: flex;
             flex-direction: column;
-            width: 250px;
+            width: 300px;
             margin-bottom: 50px;
             height:auto;
             border-radius:20px;
-            background: rgba(255, 186, 8, 0.2);
+            background: black;
             box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
         }
             .swiper {
@@ -362,25 +368,21 @@ footer{
         top: -100%; 
         left: 0;
         transition: top 0.3s ease-in-out;
+        
     }
 
     .nav__container__menu__botones.active {
-        top: 0; 
-        justify-content: center;
-        padding: 8px 16px;
-        align-content: center;
-        margin: 0;
-        align-items: center;
+        top: 0;
+        border: #ffc107;
+        margin-top: 0;
     }
     .nav__container__menu__botones.active li{
-        margin: 0 2px;
-        border-radius: 5px;
+        margin: 0 3px;
+        border-radius: 10px;
+        height: 50px;
         background-color: rgb(3, 7, 30);
         color: #FFBA08;
         border: 2px solid #FFBA08;
-        width: 100px;
-        padding: 1;
-        height: auto;
         transition: background-color 0.4s, transform 0.4s;
     }
     .nav__container__menu__botones.active li a{
