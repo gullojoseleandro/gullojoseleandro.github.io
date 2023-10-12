@@ -1,29 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 5;
     scroll-behavior: smooth;
 }
 
 html{
-    background: #03071E;
-    
-
-}
-body{
-    height: auto;
-    line-height: 1.5;
+    background-image: url(https://th.bing.com/th/id/R.af8178c1785450d81b4adedbe93532fa?rik=HeOp4tHeERjPnw&riu=http%3a%2f%2fwww.oocities.org%2fes%2fbaul_informatico%2ffondos%2f43.gif&ehk=dbuuvRij5pN%2fn1W5YKiz2juhIXfY0emi1PDDeJt74FI%3d&risl=&pid=ImgRaw&r=0);
     font-family: sans-serif;
-    
 }
 
 header{
     position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
     background-color: rgba(255, 186, 8, 0.2);
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
 }
 
     nav{
@@ -33,11 +26,9 @@ header{
     }
         .nav__container{
             display: flex;
-            padding: 5px 14px;
             align-items: center;
-            flex-basis: 100%;
-            flex-grow: 1;
-            justify-content: space-evenly;
+            flex-basis: 100%; 
+            justify-content: space-between;
         }
             .nav__container__logo{
                 box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
@@ -51,12 +42,11 @@ header{
                 }
                     .nav__container__logo a img{
                         width: 45px;
-                        margin: 0;
                     }
                     .nav__container__logo a span{
                         color: #FFBA08;
                         font-weight: bold;  
-                        font-size: 17px;
+                        font-size: 20px;
                         font-family: 'Work Sans', sans-serif;   
                         margin-left: 3px;
                         margin-bottom: 3px;
@@ -64,38 +54,36 @@ header{
 
 
             .nav__container__menu{
-                align-items: center; 
-                flex-basis: 100%;
-                justify-content: flex-end;
             }
                 .nav__container__menu ul{
                     list-style-type: none;
                     display: flex;
-                    flex-direction: row;
-                    align-content: space-around;
                     align-items: center;
+                    align-content: flex-end;
                 }
                     .nav__container__menu svg{
-                        width: 10px;
+                        width: 15px;
                         fill: #FFBA08;
                     }
                     .nav__container__menu ul.active{
-                        height: 7;
-                        /* width: 100%; */
+                        width: 100%;
+                        bottom: 605px;
+                        justify-content: space-between;
                     }
                     .nav__container__menu ul.active li{
-                        width: 500px;
-                        height: 7;
-                        padding-top: 10px;
                         border: 3px solid #FFBA08;
+                        padding-top: 12px;
+                        width: 100px;
+                        height: 50px;
                     }
+
                     .nav__container__menu ul.active li a{
-                        font-size: 14px;
+                        font-size: 15px;
                     }
                     .nav__container__menu ul li{
-                        margin: 0 4px;
+                        margin: 0 10px;
+                        padding: 13px 0px;
                         border-radius: 20px;
-                        padding: 0px 0px 0px 0px;
                         text-align: center;
                         background-color: rgb(3, 7, 30);
                         color: #FFBA08;
@@ -121,14 +109,14 @@ header{
 
 
                         .flecha{
-                            margin-left: 10px;
-                            border-radius: 5px;
-                            padding: 4px 8px;
+                            margin-left: 2px;
+                            border-radius: 50px;
+                            padding: 6px 1px;
                             background-color: #03071e;
                             color: #FFBA08;
                             border: 3px solid #FFBA08;
                             cursor: pointer;
-                            width: 50px;
+                            width: 45px;
                         }
 
             .menu-toggle {
@@ -137,10 +125,8 @@ header{
                 background-color: transparent;
                 border: none;
                 box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
-                padding: 6px 20px;
-                position: absolute;
+                padding: 5px 15px;
                 margin-top: 5px;
-                margin-right: 20px;
             }
 
                 .bar {
@@ -157,28 +143,23 @@ header{
 
 
 main{
-    margin-top: 70px;
+    margin-top: 65px;
 }
     .caja-section{
         text-align: center;
     }
         #inicio{
             min-height: 100vh;
-            background-image: url(https://th.bing.com/th/id/R.af8178c1785450d81b4adedbe93532fa?rik=HeOp4tHeERjPnw&riu=http%3a%2f%2fwww.oocities.org%2fes%2fbaul_informatico%2ffondos%2f43.gif&ehk=dbuuvRij5pN%2fn1W5YKiz2juhIXfY0emi1PDDeJt74FI%3d&risl=&pid=ImgRaw&r=0);
         }
             #inicio ul{
-                list-style: none;
-                text-align: center;
                 margin-bottom: 0;
             }
                 #inicio ul li{
                     display: inline-block;
-                    margin: 10px 30px 0 0;
+                    margin: 20px 40px 0 0;
                 }
                     #inicio svg {
                         width: 30px; 
-                        height: 30px; 
-                        margin-top: 10px;
                         fill: #FFBA08; 
                     }
 
@@ -189,14 +170,21 @@ main{
             }
                 #inicio h1 span{
                     color: #FFBA08;
-                    margin: 0;
                 }
 
             #inicio p{
                 color: whitesmoke;
-                padding: 5px 0 0 0;
+                font-size: 18px;
                 margin: 0;
             }
+
+            #presentacion{
+                padding: 10px;
+                margin-top: 5px;
+                text-align: center;
+                font-size: 10px;
+            }
+            
                 #inicio p span{
                     color: #ffc107;
                     font-weight: bold;
@@ -206,7 +194,7 @@ main{
                 width: 130px;
                 height: auto;
                 border-radius: 80%;
-                margin: 5px 0;
+                margin: 15px 0 5px 0;
                 border: 2px solid #FFBA08;
                 }
     .proyectosycontacto{
@@ -218,17 +206,19 @@ main{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            text-align:center; 
+            text-align: center;
         }
-        #proyectos h3{
-            padding-top: 70px;
+        #proyectos h2{
             color: whitesmoke;
+            font-weight: bold;
             font-size: 2rem;
+        }
+        #proyectos h2 span{
+            color: #FFBA08;
         }
 
         .recuadro_proyectos{
             display: flex;
-            flex: 1;
             padding: 2;
             margin-top: 5px;
             flex-direction: column;
@@ -284,16 +274,19 @@ main{
             box-shadow: 0 0 1.5rem gray;
         }
         #contacto{
-            margin: auto;
-            height: 600px;
+            height: 500px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
-            #contacto h3 {
+            #contacto h2 {
                 font-size: 2rem;
                 color: whitesmoke;
+                font-weight: bold;
+            }
+            #contacto h2 span{
+                color: #FFBA08;
             }
 
           .formulario_grupo {
@@ -305,6 +298,7 @@ main{
             font-size: 1.2rem;
             margin-bottom: 5px;
             color: whitesmoke;
+            font-weight: bold;
           }
           
           .formulario_grupo input,
@@ -330,6 +324,7 @@ main{
             padding: 10px 20px;
             font-size: 1rem;
             cursor: pointer;
+            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
           }
           
           button[type="submit"]:hover {
@@ -339,7 +334,7 @@ main{
             
 footer{
     background-color: #03071E;
-    height: 20px;
+    height: 10px;
 }
     .caja-footer{
         display: flex;
@@ -377,7 +372,7 @@ footer{
         margin-top: 0;
     }
     .nav__container__menu__botones.active li{
-        margin: 0 3px;
+        margin: 0 2px;
         border-radius: 10px;
         height: 50px;
         background-color: rgb(3, 7, 30);
