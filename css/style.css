@@ -106,9 +106,9 @@ header{
 
 
                         .flecha{
-                            margin-left: 2px;
-                            border-radius: 50px;
-                            padding: 6px 1px;
+                            margin-left: 10px;
+                            border-radius: 20px;
+                            padding: 6px 5px;
                             background-color: #03071e;
                             color: #FFBA08;
                             border: 3px solid #FFBA08;
@@ -140,10 +140,11 @@ header{
 
 
 main{
-    margin-top: 65px;
+
 }
     .caja-section{
         text-align: center;
+        margin-top: 75px;
     }
         #inicio{
             min-height: 100vh;
@@ -195,7 +196,7 @@ main{
                 border: 2px solid #FFBA08;
                 }
     .proyectosycontacto{
-        background: linear-gradient(to bottom, black, black,#FFBA08 ) ;
+        background: linear-gradient(to bottom, black, #FFBA08 ) ;
     }
         #proyectos{
             height: 100%;
@@ -230,28 +231,8 @@ main{
             background: black;
             box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
         }
-            .swiper {
-                width: 100%;
-                height: 100%;
-            }
-        
-            .swiper-slide {
-                text-align: center;
-                font-size: 18px;
-                background: #fff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        
-            .swiper-slide img {
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        
-        .carta .trabajo-contenido{
+
+        .carta .contenido{
             text-align: center;
             padding: 10px 5px;
             font-size: 1rem;
@@ -263,15 +244,15 @@ main{
             text-decoration: none;
         }
         
-        .carta .trabajo-contenido:hover{
+        .carta .contenido:hover{
             color:#202020;
         }
         
         .carta:hover{
-            box-shadow: 0 0 1.5rem gray;
+            box-shadow: 0 0 1.9rem gray;
         }
         #contacto{
-            height: 500px;
+            height: 550px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -418,8 +399,8 @@ footer{
         display: flex;
 
     }
-    main{
-        margin-top: 65px;
+    .caja-section{
+        margin-top: 75px;
     }
     #inicio #presentacion{
         padding: 50px;
