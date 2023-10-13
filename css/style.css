@@ -144,7 +144,7 @@ main{
 }
     .caja-section{
         text-align: center;
-        margin-top: 75px;
+        margin-top: 90px;
     }
         #inicio{
             min-height: 100vh;
@@ -400,7 +400,7 @@ footer{
 
     }
     .caja-section{
-        margin-top: 75px;
+        margin-top: 90px;
     }
     #inicio #presentacion{
         padding: 50px;
