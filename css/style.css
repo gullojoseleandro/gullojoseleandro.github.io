@@ -141,13 +141,15 @@ header{
 
 
 main{
-
 }
     .caja-section{
         text-align: center;
         margin-top: 55px;
     }
         #inicio{
+            display: flex;
+            flex-direction: column;
+
             min-height: 100vh;
             background-color: rgb(0, 0, 0, 0.7);
         }
@@ -156,15 +158,15 @@ main{
             }
                 #inicio ul li{
                     display: inline-block;
-                    margin: 20px 40px 0 0;
+                    margin: 30px 30px 0 0;
                 }
                     #inicio svg {
-                        width: 30px; 
+                        width: 7vw; 
                         fill: #FFBA08; 
                     }
 
             #inicio h1{
-                font-size: 4rem;
+                font-size: 3rem;
                 color: whitesmoke;
                 margin: 0;
             }
@@ -180,7 +182,6 @@ main{
 
             #presentacion{
                 padding: 10px;
-                margin-top: 5px;
                 text-align: center;
                 font-size: 15px;
                 color: whitesmoke;
@@ -195,7 +196,6 @@ main{
                 width: 130px;
                 height: auto;
                 border-radius: 80%;
-                margin: 15px 0 5px 0;
                 border: 2px solid #FFBA08;
                 image-rendering: optimizeSpeed;
                 }
@@ -228,9 +228,8 @@ main{
         .carta{
             display: flex;
             flex-direction: column;
-            width: 415px;
+            width: 95vw;
             margin-bottom: 50px;
-            height:500px;
             border-radius:20px;
             background: black;
             border: 3px solid #FFBA08;
@@ -277,7 +276,8 @@ main{
                 color: #FFBA08;
             }
             #formulario_contacto{
-                padding: 20px;
+                width: 95vw;
+                padding: 10px 5px 10px 5px;
                 box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
                 border-radius: 10px;
                 border: 3px solid #FFBA08;
@@ -301,7 +301,7 @@ main{
           
           .formulario_grupo input,
           .formulario_grupo textarea {
-            width: 370px;
+            width: 90vw;
             padding: 10px;
             border: 2px solid #FFBA08;
             border-radius: 5px;
