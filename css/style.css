@@ -169,6 +169,7 @@ main{
                     background-color: #FFBA08;
                     color: #03071E;
                     border: none;
+                    margin-top: 15px;
                     border-radius: 5px;
                     padding: 10px 20px;
                     font-size: 1rem;
@@ -179,7 +180,7 @@ main{
                 }
                 #inicio #btnCV:hover {
                     background-color: #ffa31a;
-                  }
+                }
 
             #inicio h1{
                 margin: 15px 0 0 0;
