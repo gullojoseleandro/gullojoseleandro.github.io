@@ -162,9 +162,16 @@ main{
                     margin: 0px 60px 0 0;
                 }
                     #inicio svg {
-                        width: 45px;
+                        width: 40px;
                         fill: #FFBA08;
+                        border: 2px solid #FFBA08;
+                        border-radius: 100%;
+                        padding: 4px;
                     }
+                    #inicio svg:hover {
+                        box-shadow: 0 0 1rem #FFBA08;
+                    }
+
                 #inicio #btnCV{
                     background-color: #FFBA08;
                     color: #03071E;
