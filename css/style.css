@@ -161,17 +161,19 @@ main{
                     display: inline-block;
                     margin: 0px 50px 0 0;
                     margin-top: 20px;
+                    border: 2px solid #FFBA08;
+                    border-radius: 100%;
                 }
                     #inicio svg {
                         width: 50px;
                         fill: #FFBA08;
-                        border: 2px solid #FFBA08;
-                        border-radius: 100%;
-                        padding: 4px;
+                        padding: 15px;
+                        align-items: center;
                     }
                     #inicio svg:hover {
                         box-shadow: 0 0 1rem #FFBA08;
                     }
+
 
                 #inicio #btnCV{
                     background-color: #FFBA08;
