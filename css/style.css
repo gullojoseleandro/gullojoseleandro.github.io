@@ -9,6 +9,7 @@ html{
     background-image: url(https://th.bing.com/th/id/R.af8178c1785450d81b4adedbe93532fa?rik=HeOp4tHeERjPnw&riu=http%3a%2f%2fwww.oocities.org%2fes%2fbaul_informatico%2ffondos%2f43.gif&ehk=dbuuvRij5pN%2fn1W5YKiz2juhIXfY0emi1PDDeJt74FI%3d&risl=&pid=ImgRaw&r=0);
     font-family: sans-serif;
     background-position: center;
+    background-repeat: round;
 }
 
 header{
@@ -147,7 +148,6 @@ main{
         margin-top: 0;
     }
         #inicio{
-            width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
