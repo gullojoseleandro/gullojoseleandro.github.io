@@ -231,9 +231,6 @@ main{
                 border: 2px solid #FFBA08;
                 image-rendering: optimizeSpeed;
                 }
-    .proyectosycontacto{
-        
-    }
         #proyectos{
             min-height: 100vh;
             display: flex;
@@ -241,14 +238,13 @@ main{
             align-items: center;
             justify-content: center;
             text-align: center;
-            margin-top: 70px;
         }
         #proyectos h2{
             color: whitesmoke;
             font-weight: bold;
             font-size: 2rem;
             font-style: italic;
-            margin: 0 0 20px 0;
+            margin: 70px 0 20px 0;
         }
         #proyectos h2 span{
             color: #FFBA08;
@@ -256,30 +252,32 @@ main{
 
         .recuadro_proyectos{
             display: flex;
-            padding: 2px;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
             width: 85vw;
+            align-items: center;
         }
         .carta{
             display: flex;
             flex-direction: column;
-            width: 80vw;
-            height: 100%;
+            width: 35vw;
             border-radius:10px;
-            background: black;
+            background-color: rgb(0, 0, 0, 0.9);
             border: 3px solid #FFBA08;
+            margin: 20px 0 20px 0;
         }
 
         .carta img{
             flex-basis: 85%;
             image-rendering: optimizeSpeed;
-            padding: 10px;
+            padding: 5px;
         }
 
         .carta .contenido{
             text-align: center;
             padding: 10px 5px;
-            font-size: 1rem;
+            font-size: 0.8rem;
             cursor: pointer;
             flex-basis: 15%;
             font-weight: bold;
@@ -303,14 +301,13 @@ main{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 70px;
         }
             #contacto h2 {
                 font-size: 2rem;
                 color: whitesmoke;
                 font-weight: bold;
                 font-style: italic;
-                border: 0 0 20px 0;
+                border: 70px 0 20px 0;
             }
             #contacto h2 span{
                 color: #ffba08;
@@ -381,7 +378,6 @@ footer{
         .caja-footer h6{
             color: white;
             font-weight: bold;
-            margin: 10px;
             padding: 8px;
             width: 220px;
             text-align: center;
